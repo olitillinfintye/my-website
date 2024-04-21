@@ -1,11 +1,11 @@
 <div align="center">
-  <img alt="Logo" src="https://user-images.githubusercontent.com/62770500/199333052-3cd38b31-7e77-4883-a1ff-a037afcc0492.png" width="100" />
+  <img alt="Logo" src="public/img/oli.png" width="100" />
 </div>
 <h1 align="center">
-  anaflous.com - v1
+  oliyad portfolio - version-01
 </h1>
 <p align="center">
-  The first iteration of <a href="https://anaflous.com" target="_blank">anaflous.com</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  The first iteration of <a href="https://oliyadtesfaye.onrender.com" target="_blank">oliyadtesfaye.onrender.com</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted on <a href="https://render.com/" target="_blank">render</a>
 </p>
 
 <p align="center">
@@ -68,35 +68,29 @@ Since i integrated some of my project into my website i'll i mention most of tec
 
 ### How To Use
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [anaflous.com](https://anaflous.com). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [oliyadtesfaye.onrender.com](https://oliyadtesfaye.onrender.com). Thanks!
 
 ## 🛠 Installation & Set Up
 
 1. Clone the repo CLI
 
    ```sh
-   git clone https://github.com/hktitof/my-website.git
+   git clone https://github.com/olitillinfintye/my-website.git
    ```
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+2. Install and use the correct version of Node using [NPM](https://github.com/npm-sh/npm)
 
    ```sh
-   nvm install
-   ```
-
-3. Install dependencies
-
-   ```sh
-   yarn
+   npm install
    ```
    
-4. (OPTIONAL) : Add .env file to the root project 
+3. (OPTIONAL) : Add .env file to the root project 
  
-```bash
+   ```bash
     touch .env
-```
+   ```
 
-5.  (OPTIONAL) : Add your Google API key inside .env file.
+4.  (OPTIONAL) : Add your Google API key inside .env file.
 
 ###### ***Note :***
 ###### not Adding Google API to the project will cause not returning the correct zip code, it might be always "00000"
@@ -106,10 +100,10 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [an
     NEXT_PUBLIC_KEY_GOOGLE_API="your API key"
 ```
 
-6. Start the development server
+5. Start the development server
 
    ```sh
-   yarn dev
+   npm run dev
    ```
 
 ## 🚀 Building and Running for Production
@@ -117,13 +111,13 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [an
 1. Generate a full static production build
 
    ```sh
-   yarn build
+   npm run build
    ```
 
 1. Preview the site as it will appear once deployed
 
    ```sh
-   yarn run serve
+   npm run serve
    ```
 ---
 ## API Description :
@@ -196,38 +190,11 @@ the following endpoint will return a json object contains "quote" and "author", 
 
 ---
 
-## License
-
-MIT License
-
-Copyright (c) [2022] [Abdellatif Anaflous]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-
----
 
 ## Author Info
 
-- Linkedin - [@abdellatif-anaflous](https://www.linkedin.com/in/abdellatif-anaflous/)
-- Website - [Abdellatif Anaflous](https://anaflous.com)
+- Linkedin - [@oliyad tesfaye](https://www.linkedin.com/in/oliyad-tesfaye-839b741a8/)
+- Website - [Oliyad Tesfaye](https://oliyadtesfaye.onrender.com)
 
 [Back To The Top](#description) :
 

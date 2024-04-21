@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Ether.js", "Solidity"],
-    ["Node.js", "TypeScript", "Framer Motion", "react-moralis", "web3.js"],
+    ["Next.js", "C++", "Tailwind CSS", "Unity", "C#"],
+    ["Node.js", "TypeScript", "React", "Laravel", "web3.js"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -29,23 +29,23 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
+                Hello! My name is Oliyad , and I am a passionate software engineer and problem solver, dedicated to
+                creating impactful codes that thrive on the internet. My journey in computer science began in 2018 when
+                I delved into the world of Ethical Hacking using KaliLinux OS. Little did I know that programming skills
                 would become essential in pursuing this interest, marking the start of my programming journey.
               </span>
             </div>
-            <div className="font-Header ">
+            {/* <div className="font-Header ">
               <span className="text-gray-400 ">
                 Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
                 refine my expertise in desktop and web development. In the realm of{" "}
                 <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
                 advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
+                <span className="text-AAsecondary">Hex Labs</span>, where I played a key role in releasing v2 of{" "}
                 <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
                 learning drives me to make a positive impact and advance technology.
               </span>
-            </div>
+            </div> */}
             {/* <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
                 Fast-forward to today, I&apos;ve had the privilege of working at
@@ -94,15 +94,15 @@ export default function AboutMe(props) {
           {/* // ? Image in Desktop and Tablet */}
           <div className="group relative lg:w-96 lg:h-96 md:w-72 md:h-72 md:block hidden ">
             <div
-              className="group-hover:translate-x-3 group-hover:translate-y-3
+              className="group-hover:translate-x-0 group-hover:translate-y-0
                duration-300 absolute w-5/6 h-5/6 border-2 border-AAsecondary translate-x-5 
                translate-y-5 rounded"
             ></div>
 
-            <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
+            <div className="absolute w-5/6 h-5/8  rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
               <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+                src={"/img/oli.png"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />
@@ -113,7 +113,7 @@ export default function AboutMe(props) {
             <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+                src={"/img/oli.png"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />
