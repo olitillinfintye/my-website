@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="public/img/oli.png" width="100" />
+  <img alt="Logo" src="public/img/oli.png" width="300" />
 </div>
 <h1 align="center">
   oliyad portfolio - version-01
@@ -14,7 +14,7 @@
   </a>
 </p>
 
-![demo](https://user-images.githubusercontent.com/62770500/199337431-d632cc3c-12fb-40db-8f96-0d5e55555579.png)
+<!-- ![demo](https://user-images.githubusercontent.com/62770500/199337431-d632cc3c-12fb-40db-8f96-0d5e55555579.png) -->
 ---
 ## 🚨 About this repo (please read!)
 
