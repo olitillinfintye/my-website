@@ -96,9 +96,9 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [ol
 ###### not Adding Google API to the project will cause not returning the correct zip code, it might be always "00000"
 ###### make sure you enabled Geolocation to this API
 
-```Javascript
+  ```Javascript
     NEXT_PUBLIC_KEY_GOOGLE_API="your API key"
-```
+  ```
 
 5. Start the development server
 
